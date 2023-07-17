@@ -84,12 +84,24 @@
  }
 
  /*journey part css end*/
-
+ /*icon part start*/
+.icon-part-container{
+  padding: 120px 220px;
+  /* gap: 20px; */
+  /* display: flex;
+  align-items: center; */
+}
+.icon-part{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+ /*icon part end*/
 
  /*responsive css*/
  @media screen and (max-width: 576px) {
-   .navbar-part-container {
-     padding: 10px;
+   .navbar-part-container{
+    padding: 10px;
    }
 
    .navbar {
@@ -102,8 +114,7 @@
      flex-direction: column;
    }
 
-   .navbar li,
-   i {
+   .navbar li,i {
      margin-right: 5px;
    }
    .journey-part-container{
@@ -118,8 +129,20 @@
     background-repeat: no-repeat;
     width: 80%;
    }
-
+   .icon-part-container {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+   }
+   .icon-part{
+    display: inline;
+   }
+   .icon-part img{
+    /* width: 20%; */
+    padding: 10px 10px;
+   }
  }
+
  @media screen and (min-width: 576px) and (max-width: 960px) {
   .navbar-part-container {
     padding: 10px;
@@ -151,4 +174,17 @@
     background-repeat: no-repeat;
     width: 80%;
    }
+   .icon-part-container {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+   }
+   .icon-part{
+    display: inline;
+   }
+   .icon-part img{
+    /* width: 20%; */
+    padding: 10px 10px;
+   }
+   
  }
